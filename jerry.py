@@ -97,8 +97,8 @@ if __name__ == "__main__":
         elif 'hai' in query:
             speak("helllooooo sir")
 
-        elif 'anchala' in query:
-            speak("hello Anchala. get well soon , more power to you and your family")
+        elif 'an' in query:
+            speak("hello. get well soon , more power to you and your family")
 
         elif 'i am sharon' in query:
             speak("hellooooo sir, how are you doing ! ")    
@@ -106,17 +106,17 @@ if __name__ == "__main__":
         elif 'i am varghese' in query:
             speak("hellooooo sir, how are you doing ! ")
 
-        elif 'priyam' in query:
-            speak("hello sir, how are you ? did you just say preeyam ? she is my friend ")       
+        elif 'pri' in query:
+            speak("hello sir, how are you ? did you just say pri ? she is my friend ")       
 
         elif 'avigna' in query:
-            speak("hello sir, i miss her ! she is my best friend ! hope she is doing well also friend i want to say shut the fuck up")           
+            speak("hello sir, i miss her ! she is my best friend !")           
 
         elif 'email to mini' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
-                to = "sunuminisss@gmail.com"    
+                to = "sharvinvarghese@gmail.com"    
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
